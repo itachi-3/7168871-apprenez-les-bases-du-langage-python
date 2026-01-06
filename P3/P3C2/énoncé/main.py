@@ -1,1 +1,3 @@
-# Écrivez votre code ici !
+from bs4 import Beautifulsoup
+
+with open
