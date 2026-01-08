@@ -6,5 +6,5 @@ with open("index.html","r") as file:
 titre= soup.title.string
 print(titre)
 
-id_h2= soup.find.string(id="h1")
+id_h2= soup.find(id="h1").string
 print(id_h2)
